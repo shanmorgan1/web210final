@@ -1,0 +1,135 @@
+body, header, nav, main, footer, h1, div, img  ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: #f1eaef;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/*MOBILEEEE */
+header {
+    position: sticky;
+    top: 0;
+    background-color:#f1eaef;
+    height: 190px;
+}
+
+header img {
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 1em;
+    text-align: center;
+}
+
+/*About Me Design*/
+
+
+
+/*Navigation */
+nav {
+    padding: 1%;
+    margin-bottom: 1%;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    font-size: 1.25em;
+    font-family: verdana, arial, sans-serif;
+    border-top: 1px solid #f1eaef
+}
+
+nav li a {
+    display: block;
+    color: #4C2440;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: #4c2440;
+    background-color: #93748A;
+}
+
+nav li:first-child {
+    border-top: none;
+}
+
+main {
+    clear: left;
+    background-color: white;
+    padding: 2%;
+    font-size: 1.25em;
+}
+
+#cycles, #adoption, #vision {
+    width: 29%;
+    float: left;
+    margin: 0 2%;
+}
+
+#contact .contact-email-link {
+    text-align: center;
+    color: #4c2440;
+}
+
+#contact a {
+    color: black;
+    text-decoration: none;
+
+}
+
+.map {
+    border: 2px solid #4c2440;
+    width: 95%;
+    height: 50%;
+}
+
+/*Footer*/
+
+footer .footer {
+    font-size: 0.75em;
+    text-align: center;
+    color: #4c2440;
+    padding: 2% 4%;
+    float: left;
+    width: 75%;
+}
+
+footer p a {
+    color: #4c2440;
+    text-decoration: none;
+}
+
+.social {
+    float: right;
+    width: 10%;
+    padding: 2%;
+}
+
+.social img {
+    display: inline-block;
+    padding: 2%;
+}
+
+main {
+    clear: left;
+}
+
+.aboutme img {
+    float: left;
+    padding: 2%;
+}
+
